@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="org.comstudy21.controller" project="java_day12_phonbook_proj" 
+    file="/java_day12_phonbook_proj/src/org/comstudy21/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="326" y="113"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="org.comstudy21.main" project="java_day12_phonbook_proj" 
+    file="/java_day12_phonbook_proj/src/org/comstudy21/main" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="103" y="166"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="org.comstudy21.model" project="java_day12_phonbook_proj" 
+    file="/java_day12_phonbook_proj/src/org/comstudy21/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="592" y="357"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="org.comstudy21.resource" project="java_day12_phonbook_proj" 
+    file="/java_day12_phonbook_proj/src/org/comstudy21/resource" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="322" y="247"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="org.comstudy21.view" project="java_day12_phonbook_proj" 
+    file="/java_day12_phonbook_proj/src/org/comstudy21/view" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="116" y="352"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
